@@ -1,19 +1,69 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #02356d;
+    
+    
+}
+#h1-chat{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#register-username {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #61a0e4;
+    border: #ccc;
+    border-radius: 10px;
+}
+
+#messageForm{
+    position: relative ;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+
+
+}
+
+#user-label{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .chat-box {
     border: 1px solid #ccc;
     padding: 10px;
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     overflow-y: scroll;
-    height: 400px;
+    height: 600px;
+    background-color: #ccc;
 }
 
 .message {
+    background-color: #E8E8E8; /* Cinza claro */
+    padding: 10px;
+    border-radius: 10px;
     margin-bottom: 10px;
+    align-self: flex-start;
+    text-align: right;
+    font-weight: bold;
+}
+
+.your-message{
+    background-color: #DCF8C6; /* Verde claro */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    font-weight: bold;
+    
 }
 
 input[type=text] {
@@ -33,6 +83,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 button:hover {

@@ -9,10 +9,6 @@ app.secret_key = 'jdefnbys@J#'
 # Inicializa o SocketIO com o aplicativo Flask
 init_app(app)
 
-# Rota padrão
-# @app.route('/')
-# def index():
-#     return 'Hello, World!'
 
 if __name__ == '__main__':
     app.register_blueprint(bp_chat)

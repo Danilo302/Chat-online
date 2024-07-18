@@ -7,7 +7,7 @@ bp_chat = Blueprint('chat',__name__)
 # Cria uma instância de SocketIO
 socketio = SocketIO()
 
-# Esta função será utilizada para inicializar o SocketIO com o aplicativo Flask
+
 def init_app(app):
     socketio.init_app(app)
 
